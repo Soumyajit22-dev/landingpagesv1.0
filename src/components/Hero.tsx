@@ -70,7 +70,10 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-center text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          Reinventing Browsing Experience
+          Reinventing Browsing Experience<br />
+          <span className="text-primary/40 text-sm">
+            Preview will be available on 20th January
+          </span>
         </motion.p>
 
         {/* CTA Buttons */}
