@@ -24,36 +24,9 @@ export default function Architecture() {
                         <div className="relative z-10 flex flex-col items-center">
                             {/* Animated Shield Icon */}
                             <div className="relative">
-                                <div className="absolute inset-0 bg-brand-red/20 blur-[60px] rounded-full animate-pulse" />
-                                <div className="relative w-32 h-32 rounded-2xl bg-gradient-to-br from-brand-red/20 to-brand-orange/10 border border-brand-red/30 flex items-center justify-center shadow-2xl">
-                                    <Shield className="w-16 h-16 text-brand-red" />
-                                </div>
-                            </div>
-
-                            {/* Security Labels orbiting */}
-                            <div className="absolute inset-0 w-full h-full">
-                                {/* Top Label */}
-                                <div className="absolute top-4 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-[#1A1B1E] rounded-lg border border-white/10 flex items-center gap-2 animate-float">
-                                    <Lock className="w-3 h-3 text-green-500" />
-                                    <span className="text-[10px] font-mono text-gray-400">End-to-End Encrypted</span>
-                                </div>
-
-                                {/* Left Label */}
-                                <div className="absolute left-0 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-[#1A1B1E] rounded-lg border border-white/10 flex items-center gap-2 animate-float [animation-delay:0.5s]">
-                                    <Eye className="w-3 h-3 text-brand-orange" />
-                                    <span className="text-[10px] font-mono text-gray-400">No Tracking</span>
-                                </div>
-
-                                {/* Right Label */}
-                                <div className="absolute right-0 top-1/2 -translate-y-1/2 px-3 py-1.5 bg-[#1A1B1E] rounded-lg border border-white/10 flex items-center gap-2 animate-float [animation-delay:1s]">
-                                    <Server className="w-3 h-3 text-blue-500" />
-                                    <span className="text-[10px] font-mono text-gray-400">Local First</span>
-                                </div>
-
-                                {/* Bottom Label */}
-                                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-3 py-1.5 bg-[#1A1B1E] rounded-lg border border-white/10 flex items-center gap-2 animate-float [animation-delay:1.5s]">
-                                    <Database className="w-3 h-3 text-purple-500" />
-                                    <span className="text-[10px] font-mono text-gray-400">Zero Data Storage</span>
+                                <div className="absolute inset-0 bg-green-500/20 blur-[60px] rounded-full animate-pulse" />
+                                <div className="relative w-64 h-64 rounded-2xl bg-gradient-to-br from-green-500/20 to-brand-orange/10 border border-green-500/30 flex items-center justify-center shadow-2xl">
+                                    <Shield className="w-32 h-32 text-green-500" />
                                 </div>
                             </div>
                         </div>

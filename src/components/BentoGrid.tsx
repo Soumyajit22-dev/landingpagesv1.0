@@ -38,45 +38,22 @@ export default function BentoGrid() {
 
                 {/* Card 1: Shopping Research (Large) */}
                 <div className="group relative col-span-1 md:col-span-2 rounded-2xl border border-white/10 bg-[#141517] overflow-hidden transition-all duration-300 hover:border-white/20 hover:shadow-2xl">
-                    <div className="relative h-full flex flex-col p-8 z-10">
-                        <div className="flex items-center justify-between mb-8">
-                            <div className="p-2 bg-white/5 rounded-lg border border-white/5">
-                                <ShoppingCart className="w-5 h-5 text-gray-300" />
-                            </div>
-                            <div className="flex items-center gap-2 text-xs font-mono text-gray-400 bg-white/5 px-2 py-1 rounded border border-white/5">
-                                <Zap className="w-3 h-3 text-brand-orange" />
-                                Saves 2.5h
-                            </div>
-                        </div>
+                    {/* Background Screenshot */}
+                    <div className="absolute inset-0">
+                        <img
+                            src="/Screenshot 2026-01-26 221253.png"
+                            alt="Shopping Research"
+                            className="w-full h-full object-cover object-left-top opacity-100 group-hover:scale-105 transition-transform duration-700"
+                        />
+                    </div>
 
-                        <h3 className="text-2xl font-display font-bold mb-2">Shopping Research</h3>
-                        <p className="text-gray-500 mb-8 max-w-md text-sm">Compare 50 products across 5 sites in 2 minutes. Get a structured summary with price comparisons.</p>
-
-                        {/* Interactive Demo UI Placeholder (Clean Table) */}
-                        <div className="flex-1 rounded-t-xl border-t border-l border-r border-white/10 bg-[#0A0A0A] p-4 overflow-hidden relative shadow-inner">
-                            {/* Header */}
-                            <div className="flex items-center gap-2 mb-4 border-b border-white/5 pb-2">
-                                <Search className="w-4 h-4 text-gray-600" />
-                                <span className="text-xs text-gray-500 font-mono">sony wh-1000xm5 vs bose qc45</span>
-                            </div>
-
-                            {/* List Items */}
-                            <div className="space-y-1">
-                                {[1, 2, 3].map((i) => (
-                                    <div key={i} className={`flex items-center justify-between p-3 rounded-lg border border-transparent hover:bg-white/5 hover:border-white/5 transition-colors cursor-default ${i === 1 && 'bg-white/5 ring-1 ring-brand-red/50'}`}>
-                                        <div className="flex items-center gap-3">
-                                            <div className="w-6 h-6 rounded bg-white/10" />
-                                            <div>
-                                                <div className="text-sm text-gray-200 font-medium">Headphones Model X{i}</div>
-                                                <div className="text-[10px] text-gray-500">Amazon • BestBuy</div>
-                                            </div>
-                                        </div>
-                                        <div className="text-right">
-                                            <div className="text-sm font-mono text-white">$29{i}.00</div>
-                                            <div className="text-[10px] text-green-500">In Stock</div>
-                                        </div>
-                                    </div>
-                                ))}
+                    <div className="absolute top-8 left-8 z-10 w-auto">
+                        <div className="h-14 bg-[#1A1B1E]/90 backdrop-blur-sm rounded-xl border border-white/5 shadow-2xl flex items-center px-5 gap-3">
+                            <ShoppingCart className="w-5 h-5 text-gray-500" />
+                            <div className="h-5 w-[2px] bg-brand-red animate-pulse" />
+                            <span className="text-lg text-gray-400 font-light">Shopping Research</span>
+                            <div className="ml-auto flex gap-2">
+                                <span className="px-2 py-1 rounded bg-white/5 text-[10px] text-gray-500 font-mono">AI Agent</span>
                             </div>
                         </div>
                     </div>

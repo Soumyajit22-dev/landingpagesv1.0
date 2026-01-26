@@ -5,7 +5,6 @@ import Architecture from "@/components/Architecture";
 import WorkflowBuilder from "@/components/WorkflowBuilder";
 import SocialProof from "@/components/SocialProof";
 import ComparisonTable from "@/components/ComparisonTable";
-import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -19,7 +18,6 @@ const Index = () => {
       <WorkflowBuilder />
       <SocialProof />
       <ComparisonTable />
-      <Pricing />
       <CTA />
       <Footer />
     </div>
