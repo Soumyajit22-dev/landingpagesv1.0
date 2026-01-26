@@ -91,10 +91,6 @@ export default function Hero() {
               className="px-8 py-4 bg-[#E6E6E6] hover:bg-white text-[#2F3031] rounded-lg font-bold text-lg transition-all hover:scale-[1.02] shadow-[0_0_20px_rgba(255,255,255,0.1)] flex items-center gap-3"
             >
               Download for Chrome
-              <div className="flex gap-1">
-                <span className="text-xs bg-[#CCCCCC] px-1.5 py-0.5 rounded text-gray-600 font-mono">⌘</span>
-                <span className="text-xs bg-[#CCCCCC] px-1.5 py-0.5 rounded text-gray-600 font-mono">K</span>
-              </div>
             </a>
 
             <a
@@ -104,10 +100,6 @@ export default function Hero() {
               className="px-8 py-4 bg-[#E6E6E6] hover:bg-white text-[#2F3031] rounded-lg font-bold text-lg transition-all hover:scale-[1.02] shadow-[0_0_20px_rgba(255,255,255,0.1)] flex items-center gap-3"
             >
               Download for Mac
-              <div className="flex gap-1">
-                <span className="text-xs bg-[#CCCCCC] px-1.5 py-0.5 rounded text-gray-600 font-mono">⌘</span>
-                <span className="text-xs bg-[#CCCCCC] px-1.5 py-0.5 rounded text-gray-600 font-mono">K</span>
-              </div>
             </a>
           </div>
 
