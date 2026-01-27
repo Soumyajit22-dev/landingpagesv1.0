@@ -36,67 +36,6 @@ export default function BentoGrid() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[30rem]">
 
-                {/* Card 1: Shopping Research (Large) */}
-                <div className="group relative col-span-1 md:col-span-2 rounded-2xl border border-white/10 bg-[#141517] overflow-hidden transition-all duration-300 hover:border-white/20 hover:shadow-2xl">
-                    {/* Background Screenshot */}
-                    <div className="absolute inset-0">
-                        <img
-                            src="/Screenshot 2026-01-26 221253.png"
-                            alt="Shopping Research"
-                            className="w-full h-full object-cover object-left-top opacity-100 group-hover:scale-105 transition-transform duration-700"
-                        />
-                    </div>
-
-                    <div className="absolute top-8 left-8 z-10 w-auto">
-                        <div className="h-14 bg-[#1A1B1E]/90 backdrop-blur-sm rounded-xl border border-white/5 shadow-2xl flex items-center px-5 gap-3">
-                            <ShoppingCart className="w-5 h-5 text-gray-500" />
-                            <div className="h-5 w-[2px] bg-brand-red animate-pulse" />
-                            <span className="text-lg text-gray-400 font-light">Shopping Research</span>
-                            <div className="ml-auto flex gap-2">
-                                <span className="px-2 py-1 rounded bg-white/5 text-[10px] text-gray-500 font-mono">AI Agent</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Card 2: Form Filling (Tall) */}
-                <div className="group relative col-span-1 row-span-1 rounded-2xl border border-white/10 bg-[#141517] overflow-hidden transition-all duration-300 hover:border-white/20 hover:shadow-2xl">
-                    <div className="relative h-full flex flex-col p-8 z-10">
-                        <div className="flex items-center justify-between mb-8">
-                            <div className="p-2 bg-white/5 rounded-lg border border-white/5">
-                                <FileText className="w-5 h-5 text-gray-300" />
-                            </div>
-                            <ArrowUpRight className="w-4 h-4 text-gray-600 group-hover:text-white transition-colors" />
-                        </div>
-
-                        <h3 className="text-2xl font-display font-bold mb-2">Auto-Fill</h3>
-                        <p className="text-gray-500 text-sm mb-6">Job applications while you sleep. Applied to 23 jobs overnight.</p>
-
-                        {/* Form UI Demo */}
-                        <div className="flex-1 relative bg-[#0A0A0A] rounded-xl border border-white/5 p-4">
-                            <div className="space-y-3">
-                                <div className="space-y-1">
-                                    <label className="text-[10px] uppercase text-gray-600 font-bold tracking-wider">Name</label>
-                                    <div className="h-8 w-full bg-[#141517] rounded border border-white/5 flex items-center px-3 text-sm text-gray-300">
-                                        John Doe
-                                    </div>
-                                </div>
-                                <div className="space-y-1">
-                                    <label className="text-[10px] uppercase text-gray-600 font-bold tracking-wider">Role</label>
-                                    <div className="h-8 w-full bg-[#141517] rounded border border-white/5 flex items-center px-3 text-sm text-gray-300">
-                                        Senior Engineer
-                                    </div>
-                                </div>
-                                <div className="pt-4">
-                                    <div className="w-full py-2 bg-brand-red text-white text-xs font-bold rounded text-center opacity-90">
-                                        Submit Application
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 {/* Card 3: Workflow Automation with REAL LOGOS */}
                 <div className="group relative col-span-1 md:col-span-3 rounded-2xl border border-white/10 bg-[#141517] overflow-hidden transition-all duration-300 hover:border-white/20 hover:shadow-2xl min-h-[25rem]">
                     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-red/5 via-transparent to-transparent opacity-50" />
